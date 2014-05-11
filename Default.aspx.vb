@@ -18,7 +18,7 @@ Partial Class _Default
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         salary.Visible = False
-        graduation.Visible = False
+        grad.Visible = False
         name.Visible = False
         malebt.Visible = False
         femalebt.Visible = False
@@ -38,7 +38,7 @@ Partial Class _Default
         github.Visible = True
         graduater.Visible = True
         namer.Visible = True
-        namer.Text = name.Text
+        namer.Text = TextBox1.Text
         githublink.Visible = True
         calendarresponse.Text = Calendar1.SelectedDate.ToShortDateString()
         calendarresponse.Visible = True

@@ -1,25 +1,34 @@
 ﻿#border {
-    background: white;
-    height: auto;
+     background: white;
+    height:auto;
     width: 800px;
     margin: auto;
     padding-top: 100px;
 }
-
-#content {
-    background: white;
+#content {    background: white;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
-    width: 200px;
-    height: 600px;
-    border-right: 2px solid blue;
-    border-left: 2px solid blue;
-    border-top: 2px solid blue;
-    border-bottom: 2px solid blue;
+    width: auto;
+    height: 578px;
+    border: 2px dotted red;
     margin-left: auto;  
     margin-right: auto;
-    text-align: left;
-    float: left;
+    text-align: center;
+    float: right;
+}
+ 
+#interact{
+    float:inherit;
+    width: 532px;
+    border: 2px  dotted red;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    background:white;
+}
+h1 {
+    color: blue;
+    text-align:center
 }

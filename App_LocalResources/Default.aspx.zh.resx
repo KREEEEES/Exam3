@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="gender.text" xml:space="preserve">
+    <value>我是：</value>
+  </data>
+  <data name="github.text" xml:space="preserve">
+    <value>我的技术网站</value>
+  </data>
   <data name="grad.text" xml:space="preserve">
     <value>我打算在毕业:</value>
   </data>

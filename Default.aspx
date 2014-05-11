@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" culture="auto:en-US" UIculture="auto"  %>
- %>
+
 
 <!DOCTYPE html>
 
@@ -13,6 +13,10 @@
     
   <div id="border">
 
+      
+      
+      
+      
       <div id="content">
 
 
@@ -20,7 +24,12 @@
       <h1>   <asp:Label ID="Label1" runat="server" Text="<%$ Resources:Resource, Welcome %>"></asp:Label> </h1>  
 
                    <br />
-            <asp:DropDownList ID="Language1" runat="server" AutoPostback="true" Height="32px" Width="176px">
+           
+          
+          
+          
+          
+           <asp:DropDownList ID="Language1" runat="server" AutoPostback="true" Height="32px" Width="176px">
                 <asp:ListItem Value="en-US">Languages</asp:ListItem>
                 <asp:ListItem Value="en-US">English (US)</asp:ListItem>
                 <asp:ListItem Value="es">Spanish</asp:ListItem>
@@ -38,24 +47,24 @@
       <h1><asp:Label ID="info" runat="server" meta:resourceKey="info" Text="Label"></asp:Label> </h1>
 
       <br />
-      <asp:Label ID="name" runat="server" Text="Label"></asp:Label>
+      <asp:Label ID="name" runat="server" meta:resourceKey="name" Text="Label"></asp:Label>
        &nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
       <br />
         <br />
-      <asp:Label ID="gender" runat="server" Text="Label"></asp:Label>
-      <asp:RadioButton ID="malebt" runat="server" />
-      <asp:RadioButton ID="femalebt" runat="server" />
+      <asp:Label ID="gender" runat="server" meta:resourceKey="gender" Text="Label"></asp:Label>
+      &nbsp<asp:RadioButton ID="malebt" runat="server" meta:resourceKey="rad1" />
+     &nbsp <asp:RadioButton ID="femalebt" runat="server" meta:resourceKey="rad2" />
       <br />
 
 
     
-  </div>
+
       
             
           
              <br />
             <br />
-            <asp:Label ID="graduation" runat="server" meta:resourceKey="graduation" Text="selectdate"></asp:Label>
+            <asp:Label ID="grad" runat="server" meta:resourceKey="grad" Text="selectdate"></asp:Label>
             <asp:Label ID="hello" runat="server" meta:resourceKey="hello" Text="hello"></asp:Label>&nbsp;<asp:Label ID="label6" runat="server" Text="Label"></asp:Label>
                 <asp:Label ID="namer" runat="server" Text="name output"></asp:Label>
             <br />
@@ -71,7 +80,11 @@
             <asp:Label ID="github" runat="server" meta:resourceKey="github" Text="github"></asp:Label>
             &nbsp;<asp:LinkButton ID="githublink" runat="server">GitHub</asp:LinkButton>
             <br />
-            <asp:Label ID="salary" runat="server" meta:resourceKey="salary" Text="salary"></asp:Label>
+            
+      
+      
+      
+      <asp:Label ID="salary" runat="server" meta:resourceKey="salary" Text="salary"></asp:Label>
             &nbsp;<asp:TextBox ID="salaryTB" runat="server" Width="172px"></asp:TextBox>
             
                 <br />
@@ -86,7 +99,7 @@
        </div>     
   
   
-        
+        </div>
           
     
 
