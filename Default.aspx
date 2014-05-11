@@ -1,4 +1,5 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" culture="auto:en-US" UIculture="auto"  %>
+ %>
 
 <!DOCTYPE html>
 
@@ -34,7 +35,7 @@
     
   
   <div id="interact">
-      <h1><asp:Label ID="info" runat="server" Text="Label"></asp:Label> </h1>
+      <h1><asp:Label ID="info" runat="server" meta:resourceKey="info" Text="Label"></asp:Label> </h1>
 
       <br />
       <asp:Label ID="name" runat="server" Text="Label"></asp:Label>
@@ -47,9 +48,50 @@
       <br />
 
 
-      <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+    
   </div>
+      
+            
+          
+             <br />
+            <br />
+            <asp:Label ID="graduation" runat="server" meta:resourceKey="graduation" Text="selectdate"></asp:Label>
+            <asp:Label ID="hello" runat="server" meta:resourceKey="hello" Text="hello"></asp:Label>&nbsp;<asp:Label ID="label6" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="namer" runat="server" Text="name output"></asp:Label>
+            <br />
+            <br />
+            <asp:Label ID="graduater" runat="server" meta:resourceKey="graduater" Text="graduateresponse"></asp:Label>&nbsp;<asp:Label ID="calendarresponse" runat="server" Text="Label"></asp:Label>
+            <br />
+          
+      <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+            <br />
+            <asp:Label ID="salaryrepsonse" runat="server" meta:resourceKey="salaryr" Text="salaryresponse"></asp:Label>&nbsp;<asp:Label ID="currencylabel1" runat="server" Text="Label"></asp:Label>
+            <br />
+            <br />
+            <asp:Label ID="github" runat="server" meta:resourceKey="github" Text="github"></asp:Label>
+            &nbsp;<asp:LinkButton ID="githublink" runat="server">GitHub</asp:LinkButton>
+            <br />
+            <asp:Label ID="salary" runat="server" meta:resourceKey="salary" Text="salary"></asp:Label>
+            &nbsp;<asp:TextBox ID="salaryTB" runat="server" Width="172px"></asp:TextBox>
+            
+                <br />
+                <br />
+                <asp:Button ID="Button1" runat="server" Text="Button" Width="89px" meta:resourceKey="submit" />
+
+
+   
+            
+            <br />
+            <br />
+       </div>     
+  
+  
+        
+          
+    
 
     </form>
 </body>
 </html>
+
+ 
